@@ -1,8 +1,8 @@
 #!/bin/bash
 
-SG_ID="sg-076ec9ad23dab2b28" # replace with your ID
+SG_ID="sg-0f45cd6cf89edb6b8" # replace with your ID
 AMI_ID="ami-0220d79f3f480ecf5"
-ZONE_ID="sg-0f45cd6cf89edb6b8"
+ZONE_ID="Z10009582WYV74N1YB82Q"
 DOMAIN_NAME="ssrdevops.online"
 
 for instance in $@
