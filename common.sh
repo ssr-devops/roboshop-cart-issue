@@ -86,7 +86,7 @@ java_setup(){
 }
 
 python_setup(){
-    dnf install python36 gcc python3-devel -y &>>$LOGS_FILE
+    dnf install python3 gcc python3-devel -y &>>$LOGS_FILE
     VALIDATE $? "Installing Python3"
 
     cd /app
